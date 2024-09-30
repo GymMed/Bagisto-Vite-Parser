@@ -7,7 +7,7 @@
 </div>
 
 Neat way to locate documents build with vite laravel library in bagisto project.
-Helps to find manifest.json while using config/bagisto-vite.
+Helps to find **manifest.json** while using **config/bagisto-vite**.
 
 ## Installation
 
@@ -20,11 +20,11 @@ composer require gymmed/bagisto-vite-parser
 ## Use Case
 
 [Dompdf](https://github.com/dompdf/dompdf) and its laravel wrapper, [laravel-dompdf](https://github.com/barryvdh/laravel-dompdf),
-only support direct CSS or external CSS file links. However, these CSS files require real relative paths, while Vite in Laravel uses hashed filenames to avoid name collisions. This library provides an easy way to retrieve the correct CSS paths from config/bagisto-vite, specifically designed for [Bagisto](https://github.com/bagisto/bagisto), not for general Laravel usage.
+only support direct CSS or external CSS file links. However, these CSS files require real relative paths, while Vite in Laravel uses hashed filenames to avoid name collisions. This library provides an easy way to retrieve the correct CSS paths from **config/bagisto-vite**, specifically designed for [Bagisto](https://github.com/bagisto/bagisto), not for general [Laravel](https://github.com/laravel/laravel) usage.
 
 ## Usage
 
-In your config/bagisto-vite.php, add a new entry for your package under the viters section. Example:
+In your **config/bagisto-vite.php**, add a new entry for your package under the viters section. Example:
 
 ```php
     return [
@@ -39,7 +39,7 @@ In your config/bagisto-vite.php, add a new entry for your package under the vite
     ];
 ```
 
-This should correspond to the laravel plugin configuration in your package's vite.config.js. Example:
+This should correspond to the **laravel plugin** configuration in your package's **vite.config.js**. Example:
 
 ```php
 plugins: [
