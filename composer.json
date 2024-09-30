@@ -1,0 +1,28 @@
+{
+    "name": "gymmed/bagisto-vite-parser",
+    "description": "Neat way to locate documents build with vite laravel library in bagisto project. Helps to find manifest.json while using config/bagisto-vite.",
+    "keywords": [
+        "gymmed",
+        "bagisto-vite-parser",
+        "vite-parser",
+        "bagisto",
+        "vite",
+        "php"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GymMed\\BagistoViteParser\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gytis",
+            "email": "medelis.gytis@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
